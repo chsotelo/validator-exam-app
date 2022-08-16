@@ -19,3 +19,20 @@ export const compararUqid = () => {
     console.log(counterUquid);
     counterUquid = 0;
 }
+
+// import { questions } from '../exams/questions.js';
+// let counterUquid = 0;
+
+
+
+// export const compararUqid = () => {
+    
+//     const rta = questions.map((e) => { e.uqid }).reduce((obj, contenido) => ({
+//         if(obj[contenido]) {
+//             obj[contenido] = obj[contenido] + 1
+//         }else {
+//             obj[contenido] = 1;
+//         }
+//         return obj;
+//     }), {});
+// }

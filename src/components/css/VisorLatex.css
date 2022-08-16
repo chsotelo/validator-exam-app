@@ -1,0 +1,17 @@
+.container-general-visorlatex{
+    display: flex;
+    /* autoajuste de elementos */
+    flex-wrap: wrap;
+    
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    min-height: 20vh;
+    font-size: 10px;
+}

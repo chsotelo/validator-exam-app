@@ -1,24 +1,25 @@
-export const questions = [
+const questions = [
+
     // verbalReasoning 8
     {
         uqid: `88869484-18c6-11ed-861d-0242ac120002`,
-        question: `   Ayacuchana de mi alma, mucho tiempo voy sufriendo por tu amor; \nsiento tu desprecio, pero a veces pienso que sufres por mi; \nparece que en tu corazón hay un Dios que llora y un demonio que ruge.\nEn el texto anterior,¿qué palabras tienen sentido opuesto?`,
-        keys: [` Dios - demonio`, `alma - sufriendo`, `amor - Dios`, `alma - corazón `, `llora - ruge`],
+        question: `Ayacuchana de mi alma, mucho tiempo voy sufriendo por tu amor; siento tu desprecio, pero a veces pienso que sufres por mi; parece que en tu corazón hay un Dios que llora y un demonio que ruge.\nEn el texto anterior,¿qué palabras tienen sentido opuesto?`,
+        keys: [`Dios - demonio`, `alma - sufriendo`, `amor - Dios`, `alma - corazón `, `llora - ruge`],
         UrlOfImage: null,
         university: `unsch`,
         course: `verbalReasoning`,
         level: 300000,
     }, {
         uqid: `d1afc680-18c6-11ed-861d-0242ac120002`,
-        question: ` Complete con una de las alternativas; uso de conectores.\n_______ de tu abandono, las noches eran agradables, tiernas _______ alegres en realidad.`,
-        keys: [` A Pesar - y`, `Además - pero`, `Después - o`, `Antes - pues`, `Luego - sino`],
+        question: `Complete con una de las alternativas; uso de conectores.\n _______ de tu abandono, las noches eran agradables, tiernas _______ alegres en realidad.`,
+        keys: [`A Pesar - y`, `Además - pero`, `Después - o`, `Antes - pues`, `Luego - sino`],
         UrlOfImage: null,
         university: `unsch`,
         course: `verbalReasoning`,
         level: 300000,
     }, {
         uqid: `1d71253c-18c7-11ed-861d-0242ac120002`,
-        question: `  Cuando viajamos a Cocharcas (un distrito que está en la provincia de Chincheros, departamento de Apurimac), nos detuvimos en las alturas de Quri \nAywina porque algunos familiares del marearon. \n En el texto anterior; la relación analógica de causa efecto es:`,
+        question: `Cuando viajamos a Cocharcas (un distrito que está en la provincia de Chincheros, departamento de Apurimac), nos detuvimos en las alturas de Quri Aywina porque algunos familiares del marearon. \n En el texto anterior; la relación analógica de causa efecto es:`,
         keys: [`altura(alturas) - mareo (marearon)`, `viaje - Cocharcas`, `distrito - provincia`, `Quri Aywina - puna`, `familiares - mareo`],
         UrlOfImage: null,
         university: `unsch`,
@@ -155,7 +156,7 @@ export const questions = [
     },
     {
         uqid: `bdf9fc6a-18f7-11ed-861d-0242ac120002`,
-        question: ` Halle el dominio de la función: \n\n y= f(x)= \\frac{x+2}{x-3}`,
+        question: ` Halle el dominio de la función: \n\n y= f(x)= \\frac{x+2}{x-3]`,
         keys: [`$R - {3}$`, `$R$`, `$R - {-3}$`, `$R - {2}$`, `$R - {5}$`],
         UrlOfImage: null,
         university: `unsch`,
