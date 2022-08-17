@@ -2,16 +2,16 @@ export const questions = [
     // verbalReasoning 8
     {
         uqid: `88869484-18c6-11ed-861d-0242ac120002`,
-        question: `   Ayacuchana de mi alma, mucho tiempo voy sufriendo por tu amor; \nsiento tu desprecio, pero a veces pienso que sufres por mi; \nparece que en tu corazón hay un Dios que llora y un demonio que ruge.\nEn el texto anterior,¿qué palabras tienen sentido opuesto?`,
+        question: ` Complete con una de las alternativas; uso de conectores.\n_______ de tu abandono, las    noches eran agradables, tiernas   _______ alegres en realidad.`,
         keys: [` Dios - demonio`, `alma - sufriendo`, `amor - Dios`, `alma - corazón `, `llora - ruge`],
         UrlOfImage: null,
         university: `unsch`,
         course: `verbalReasoning`,
         level: 300000,
     }, {
-        uqid: `d1afc680-18c6-11ed-861d-0242ac120002`,
-        question: ` Complete con una de las alternativas; uso de conectores.\n_______ de tu abandono, las noches eran agradables, tiernas _______ alegres en realidad.`,
-        keys: [` A Pesar - y`, `Además - pero`, `Después - o`, `Antes - pues`, `Luego - sino`],
+        uqid: `88869484-18c6-11ed-861d-0242ac120002`,
+        question: `       Complete con una de las     alternativas; uso de conectores.\n_______ de tu abandono, las noches eran agradables, tiernas _______ alegres en realidad.`,
+        keys: [` Dios - demonio`, `alma - sufriendo`, `amor - Dios`, `alma - corazón `, `llora - ruge`],
         UrlOfImage: null,
         university: `unsch`,
         course: `verbalReasoning`,
@@ -89,7 +89,7 @@ export const questions = [
         uqid: `488b2ce6-18f3-11ed-861d-0242ac120002`,
         question: `Si la proposición ”p” es verdadera, entonces \n \\backsim p \\implies q es:`,
         keys: [`Verdadera.`, `Falsa.`, `Su valor depende de ”q”.`, `Verdadera o Falsa`, `No se pueden determinar.`],
-        UrlOfImage: null,
+        UrlOfImage: "https://firebasestorage.googleapis.com/v0/b/gauler-665ba.appspot.com/o/imagesOfBQ%2FmathematicalReasoning%2F8d224fac-18d4-11ed-861d-0242ac120002.jpg?alt=media&token=5e488c1c-f625-4ee4-8868-be05e3762ebb",
         university: `unsch`,
         course: `mathematicalReasoning`,
         level: 1,
@@ -145,7 +145,7 @@ export const questions = [
         level: 1,
     },
     {
-        uqid: `5332c2b8-18f7-11ed-861d-0242ac120002`,
+        uqid: `e1e78332-18f6-11ed-861d-0242ac120002`,
         question: `Simplifique:`,
         keys: [`$9$`, `$4$`, `$3$`, `$8$`, `$6$`],
         UrlOfImage: `https://firebasestorage.googleapis.com/v0/b/gauler-665ba.appspot.com/o/imagesOfBQ%2Falgebra%2F5332c2b8-18f7-11ed-861d-0242ac120002.jpg?alt=media&token=0fdd6fd7-2523-4127-b6a9-3c98ff3801d0`,

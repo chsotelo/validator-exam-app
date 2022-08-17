@@ -8,6 +8,7 @@ import { compararUqid } from "./functions/compararUqid"
 import { compararURL } from "./functions/compararURL"
 import { compararPregunta } from "./functions/compararPregunta";
 import { compararKeys } from "./functions/compararKeys";
+import { funcionRepetidos } from "./functions/funcionRepetidos.js";
 import { generarJSON } from "./functions/generarJSON";
 // import { questions as preguntas, questions } from './exams/questions.js';
 import './App.css';
@@ -16,7 +17,6 @@ import VisorLatex from "./components/VisorLatex";
 
 
 const jsonData= require('./ArchivoJSON/preguntas7.json');
-console.log(jsonData);
 
 const preguntas = JSON.parse(JSON.stringify(jsonData));
 function App() {
@@ -25,31 +25,32 @@ function App() {
     <div >
       <div className="App-header">
         <h1>Validador examen</h1>
-        <button onClick={compararUqid}> Comparar Uquid </button>
+        {/* <button onClick={compararUqid}> Comparar Uquid </button>
         <br />
         <button onClick={compararURL}> Comparar URL </button>
         <br />
         <button onClick={compararPregunta}> Comparar Pregunta </button>
         <br />
-        <button onClick={compararKeys}> Comparar Keys </button>
+        <button onClick={compararKeys}> Comparar Keys </button> */}
         <br />
+        <button onClick={funcionRepetidos}> Comparar Keys </button>
+        {/* <br />
         <button onClick={generarJSON}> Generar JSON </button>
-        <br />
+        <br /> */}
         <br />
       </div>
       <div className='container-questions'>
 
         <h1>Resultado</h1>
         {
-          preguntas.map((e, i) => (
-            //enumerar las iteraciones
-            <div key={i}>
-              <h2>Pregunta de {e.course}</h2>
-              <h2>{i+1}</h2>
-
-              <VisorLatex pregunta={e.question} keys={e.keys} />
-            </div>
-          ))
+          /* Iterating over the array `preguntas` and returning a new array of `<div>` elements. */
+          // preguntas.map((e, i) => (
+          //   <div key={i}>
+          //     <h2>Pregunta de {e.course}</h2>
+          //     <h2>{i+1}</h2>
+          //     <VisorLatex pregunta={e.question} keys={e.keys} />
+          //   </div>
+          // ))
         }
         <br />
       </div>
