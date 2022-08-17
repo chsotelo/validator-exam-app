@@ -27,7 +27,7 @@ export const questions = [
     }, {
         uqid: `0291c130-18c8-11ed-861d-0242ac120002`,
         question: `Complete la analogía todo - parte \n templo : altar \n universidad :`,
-        keys: [`aula`, `estudios superiores`, `Ministerio de Educación`, `SUNEDU`, `ANR`],
+        keys: [ `Quri Aywina - puna`, `familiares - mareo`],
         UrlOfImage: null,
         university: `unsch`,
         course: `verbalReasoning`,
