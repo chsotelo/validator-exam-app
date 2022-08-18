@@ -2,32 +2,32 @@ export const questions = [
     // verbalReasoning 8
     {
         uqid: `88869484-18c6-11ed-861d-0242ac120002`,
-        question: ` Complete con una de las alternativas; uso de conectores.\n_______ de tu abandono, las    noches eran agradables, tiernas   _______ alegres en realidad.`,
-        keys: [` Dios - demonio`, `alma - sufriendo`, `amor - Dios`, `alma - corazón `, `llora - ruge`],
+        question: `Ayacuchana de mi alma, mucho tiempo voy sufriendo por tu amor; siento tu desprecio, pero a veces pienso que sufres por mi; parece que en tu corazón hay un Dios que llora y un demonio que ruge.\nEn el texto anterior,¿qué palabras tienen sentido opuesto?`,
+        keys: [`Dios - demonio`, `alma - sufriendo`, `amor - Dios`, `alma - corazón `, `llora - ruge`],
         UrlOfImage: null,
         university: `unsch`,
         course: `verbalReasoning`,
         level: 300000,
-    }, {
-        uqid: `88869484-18c6-11ed-861d-0242ac120002`,
-        question: `       Complete con una de las     alternativas; uso de conectores.\n_______ de tu abandono, las noches eran agradables, tiernas _______ alegres en realidad.`,
-        keys: [` Dios - demonio`, `alma - sufriendo`, `amor - Dios`, `alma - corazón `, `llora - ruge`],
+    },{
+        uqid: `d1afc680-18c6-11ed-861d-0242ac120002`,
+        question: `Complete con una de las alternativas; uso de conectores.\n _______ de tu abandono, las noches eran agradables, tiernas _______ alegres en realidad.`,
+        keys: [`A Pesar - y`, `Además - pero`, `Después - o`, `Antes - pues`, `Luego - sino`],
         UrlOfImage: null,
         university: `unsch`,
         course: `verbalReasoning`,
         level: 300000,
-    }, {
+    },{
         uqid: `1d71253c-18c7-11ed-861d-0242ac120002`,
-        question: `  Cuando viajamos a Cocharcas (un distrito que está en la provincia de Chincheros, departamento de Apurimac), nos detuvimos en las alturas de Quri \nAywina porque algunos familiares del marearon. \n En el texto anterior; la relación analógica de causa efecto es:`,
+        question: `Cuando viajamos a Cocharcas (un distrito que está en la provincia de Chincheros, departamento de Apurimac), nos detuvimos en las alturas de Quri Aywina porque algunos familiares del marearon. \n En el texto anterior; la relación analógica de causa efecto es:`,
         keys: [`altura(alturas) - mareo (marearon)`, `viaje - Cocharcas`, `distrito - provincia`, `Quri Aywina - puna`, `familiares - mareo`],
         UrlOfImage: null,
         university: `unsch`,
         course: `verbalReasoning`,
         level: 400000,
-    }, {
+    },{
         uqid: `0291c130-18c8-11ed-861d-0242ac120002`,
         question: `Complete la analogía todo - parte \n templo : altar \n universidad :`,
-        keys: [ `Quri Aywina - puna`, `familiares - mareo`],
+        keys: [`aula`, `estudios superiores`, `Ministerio de Educación`, `SUNEDU`, `ANR`],
         UrlOfImage: null,
         university: `unsch`,
         course: `verbalReasoning`,
@@ -77,7 +77,7 @@ export const questions = [
         university: `unsch`,
         course: `mathematicalReasoning`,
         level: 100000,
-    }, {
+    },{
         uqid: `8d224fac-18d4-11ed-861d-0242ac120002`,
         question: `Indique qué poleas tienen sentido antihorario.`,
         keys: [`$2, 4, 6$`, `$2, 6 $`, `$3, 4, 7$`, `$6, 5, 1$`, `$1, 4, 6$`],
@@ -85,15 +85,15 @@ export const questions = [
         university: `unsch`,
         course: `mathematicalReasoning`,
         level: 100000,
-    }, {
+    },{
         uqid: `488b2ce6-18f3-11ed-861d-0242ac120002`,
         question: `Si la proposición ”p” es verdadera, entonces \n \\backsim p \\implies q es:`,
         keys: [`Verdadera.`, `Falsa.`, `Su valor depende de ”q”.`, `Verdadera o Falsa`, `No se pueden determinar.`],
-        UrlOfImage: "https://firebasestorage.googleapis.com/v0/b/gauler-665ba.appspot.com/o/imagesOfBQ%2FmathematicalReasoning%2F8d224fac-18d4-11ed-861d-0242ac120002.jpg?alt=media&token=5e488c1c-f625-4ee4-8868-be05e3762ebb",
+        UrlOfImage: null,
         university: `unsch`,
         course: `mathematicalReasoning`,
         level: 1,
-    }, {
+    },{
         uqid: `4e8875cc-18f3-11ed-861d-0242ac120002`,
         question: `Vilma es más vieja que Celina. Nelly, más joven que Celina; pero más vieja que Luz. Esta, a su vez, es más joven que Danna.¿Cuál de las cinco es más joven?`,
         keys: [`Luz`, `Celina`, `Nelly`, `Dnna`, `Vilma`],
@@ -101,7 +101,7 @@ export const questions = [
         university: `unsch`,
         course: `mathematicalReasoning`,
         level: 1,
-    }, {
+    },{
         uqid: `84b2335e-18f3-11ed-861d-0242ac120002`,
         question: `¿Cuántos puntos de contacto se tendrá en la figura $25$?`,
         keys: [`$975$`, `$600$`, `$625$`, `$1080$`, `$810$`],
@@ -109,7 +109,7 @@ export const questions = [
         university: `unsch`,
         course: `mathematicalReasoning`,
         level: 1,
-    }, {
+    },{
         uqid: `fb5586b4-18f3-11ed-861d-0242ac120002`,
         question: `En la analogía, halle x + y.`,
         keys: [`$22$`, `$18$`, `$20$`, `$23$`, `$24$`],
@@ -117,7 +117,7 @@ export const questions = [
         university: `unsch`,
         course: `mathematicalReasoning`,
         level: 1,
-    }, {
+    },{
         uqid: `886bbcf8-18f4-11ed-861d-0242ac120002`,
         question: `Efectuar`,
         keys: [`$3/323$`, `$1$`, `$1/19$`, `$19$`, `$8/27$`],
@@ -125,7 +125,7 @@ export const questions = [
         university: `unsch`,
         course: `mathematicalReasoning`,
         level: 1,
-    }, {
+    },{
         uqid: `13f9984e-18f5-11ed-861d-0242ac120002`,
         question: `Rubén es profesor del cuarto grado de Educación secundaria de la IE ”Mariscal Caceres” y tiene a cargo la sección A. Al aplicar la prueba escrita de Matemática, se obtuvieron los siguientes resultados en la siguiente tabla de frecuencias ¿Cuál es el promedio de notas de la sección A?`,
         keys: [`$12.5 años$`, `$10 años$`, `$10,5 años$`, `$11.5 años$`, `$12 años$`],
@@ -145,7 +145,7 @@ export const questions = [
         level: 1,
     },
     {
-        uqid: `e1e78332-18f6-11ed-861d-0242ac120002`,
+        uqid: `5332c2b8-18f7-11ed-861d-0242ac120002`,
         question: `Simplifique:`,
         keys: [`$9$`, `$4$`, `$3$`, `$8$`, `$6$`],
         UrlOfImage: `https://firebasestorage.googleapis.com/v0/b/gauler-665ba.appspot.com/o/imagesOfBQ%2Falgebra%2F5332c2b8-18f7-11ed-861d-0242ac120002.jpg?alt=media&token=0fdd6fd7-2523-4127-b6a9-3c98ff3801d0`,
@@ -155,7 +155,7 @@ export const questions = [
     },
     {
         uqid: `bdf9fc6a-18f7-11ed-861d-0242ac120002`,
-        question: ` Halle el dominio de la función: \n\n y= f(x)= \\frac{x+2}{x-3}`,
+        question: ` Halle el dominio de la función: \n\n y= f(x)= \\frac{x+2}{x-3]`,
         keys: [`$R - {3}$`, `$R$`, `$R - {-3}$`, `$R - {2}$`, `$R - {5}$`],
         UrlOfImage: null,
         university: `unsch`,
@@ -172,7 +172,7 @@ export const questions = [
         university: `unsch`,
         course: `arithmetic`,
         level: 1,
-    }, {
+    },{
         uqid: `f17656ee-18f5-11ed-861d-0242ac120002`,
         question: `El promedio de la edad de 16 estudiantes varones de una aula es de 12 años y al edad promedio de 14 estudiantes mujeres es 15 años. calcular el promedio de la edad de los estudiantes del aula.`,
         keys: [`$13,4$`, `$12,5$`, `$13,8$`, `$14,5$`, `$12,8$`],
@@ -180,7 +180,7 @@ export const questions = [
         university: `unsch`,
         course: `arithmetic`,
         level: 1,
-    }, {
+    },{
         uqid: `411bc828-18f6-11ed-861d-0242ac120002`,
         question: `El máximo común divisor de dos números es 8. ¿Cuál es el mínimo común múltiplo de dichos números si su producto es 1344?`,
         keys: [`$168$`, `$180$`, `$188$`, `$208$`, `$104$`],
@@ -189,7 +189,7 @@ export const questions = [
         course: `arithmetic`,
         level: 1,
     },
-
+   
 
     // trigonometry 1
     {
@@ -200,7 +200,7 @@ export const questions = [
         university: `unsch`,
         course: `trigonometry`,
         level: 1,
-    }, {
+    },{
         uqid: `4920f1fc-18fa-11ed-861d-0242ac120002`,
         question: `Determine el valor numérico de \n E=\\frac{4[sen(-30°)]^{2}+13]}{tg(-180°)+sec(-60°)}`,
         keys: [`$7$`, `$6$`, `$8$`, `$9$`, `$10$`],
@@ -228,7 +228,7 @@ export const questions = [
         university: `unsch`,
         course: `geometry`,
         level: 1,
-    }, {
+    },{
         uqid: `bde2d9bc-18f8-11ed-861d-0242ac120002`,
         question: `En un trapecio, la mediana mide 14 cm más que la base menor y esta, la tercera parte de la base mayor. ¿Cuánto mide la base mayor? `,
         keys: [`$42 cm$`, `$28 cm$`, `$84 cm$`, `$14 cm$`, `$58 cm$`],
@@ -236,7 +236,7 @@ export const questions = [
         university: `unsch`,
         course: `geometry`,
         level: 1,
-    }, {
+    },{
         uqid: `63feaeac-18f9-11ed-861d-0242ac120002`,
         question: `En la figura mostrada, halle FG sabiendo que AB//FG y G es baricentro`,
         keys: [`$10 cm$`, `$15 cm$`, `$14 cm$`, `$25 cm$`, `$20 cm$`],
@@ -263,7 +263,7 @@ export const questions = [
         university: `unsch`,
         course: `physics`,
         level: 1,
-    }, {
+    },{
         uqid: `27cdb51a-18fc-11ed-861d-0242ac120002`,
         question: `Un proyectil se dispara con una velocidad de 36 km/h.¿Qué altura máxima alcanza el proyectil? Asume = 10 m/s^{2}.`,
         keys: [`$3,2 m$`, `$2,8 m$`, `$4,8 m$`, `$5,2 m$`, `$1,8 m$`],
@@ -271,7 +271,7 @@ export const questions = [
         university: `unsch`,
         course: `physics`,
         level: 1,
-    }, {
+    },{
         uqid: `c93a7ffa-18fc-11ed-861d-0242ac120002`,
         question: `Una rueda gira a razón de 8 rad/s. Calcule la velocidad tangencial del punto A.`,
         keys: [`$24 m/s$`, `$20 m/s$`, `$15 m/s$`, `$10 m/s$`, `$12 m/s$`],
@@ -279,7 +279,7 @@ export const questions = [
         university: `unsch`,
         course: `physics`,
         level: 1,
-    }, {
+    },{
         uqid: `bdd78f6c-18fd-11ed-861d-0242ac120002`,
         question: `Halle el módulo de la fuerza resultante en el sistema de fuerzas.`,
         keys: [`$\\sqrt{26}$`, `$\\sqrt{17}$`, `$\\sqrt{21}$`, `$\\sqrt{11}$`, `$\\sqrt{13}$`],
@@ -287,7 +287,7 @@ export const questions = [
         university: `unsch`,
         course: `physics`,
         level: 1,
-    }, {
+    },{
         uqid: `451417d4-18fe-11ed-861d-0242ac120002`,
         question: `Un auto se mueve con una rapidez constante de 72 km/h hacia una pared, como se muestra en la figura. ¿En cuánto tiempo llegará a la pared?`,
         keys: [`$15 s$`, `$20 s$`, `$30 s$`, `$25 s$`, `$10 s$`],
@@ -295,7 +295,7 @@ export const questions = [
         university: `unsch`,
         course: `physics`,
         level: 1,
-    }, {
+    },{
         uqid: `d597d8d6-18fe-11ed-861d-0242ac120002`,
         question: `En la figura mostrada, calcule el peso del bloque P para que el sistema esté en equilibrio. La superficie es lisa.`,
         keys: [`$90 N$`, `$100 N$`, `$80 N$`, `$120 N$`, `$150 N$`],
@@ -313,7 +313,7 @@ export const questions = [
         university: `unsch`,
         course: `chemistry`,
         level: 1,
-    }, {
+    },{
         uqid: `506ddfd0-1902-11ed-861d-0242ac120002`,
         question: `Señale con \”V\” la proposición verdadera y con \”F\” la falsa e indique la alternativa correcta. \n\n 1. El cloruro de sodio (NaCl) tiene enlace iónico. (  ) \n 2. El agua (H_2O) posee enlace covalente. (  ) \n 3. El cobre (Cu) tiene enlace metálico. (  ) \n 4. El óxido férrico (Fe_2O_2) posee enlace covalente. (  ) \n 5. El ozono (O_2) tiene enlace metálico. (  ).`,
         keys: [`VVVFF`, `VVVVV`, `FVFVF`, `VFVFV`, `FFFVV`],
@@ -321,7 +321,7 @@ export const questions = [
         university: `unsch`,
         course: `chemistry`,
         level: 1,
-    }, {
+    },{
         uqid: `190122b8-1903-11ed-861d-0242ac120002`,
         question: `¿Cuáles son los coeficientes de la ecuación balanceada de la reacción química de combustión del etanol? \n\n C_2H_5OH_(l) + O_2(g) \\longrightarrow CO_2(g) + H_2O(g)`,
         keys: [`$1, 3, 2, 3$`, `$2, 3, 2, 3$`, `$3, 1, 3, 2$`, `$2, 3, 1, 4$`, `$1, 2, 3, 4$`],
@@ -329,7 +329,7 @@ export const questions = [
         university: `unsch`,
         course: `chemistry`,
         level: 1,
-    }, {
+    },{
         uqid: `733e311c-1903-11ed-861d-0242ac120002`,
         question: `Determine la masa de gramos de anhídrido carbónico(CO2) que se produce cuando combustiona 898 gramos de propano gaseoso, según la reacción:\n\n(escribir la ecuación) \n\n (masas molares en g/mol C_3H_8 = 44, 0_2 = 32, CO_2 = 44, H_2O = 18)`,
         keys: [`$264 g$`, `$132 g$`, `$150 g$`, `$180 g$`, `$200 g$`],
@@ -337,15 +337,15 @@ export const questions = [
         university: `unsch`,
         course: `chemistry`,
         level: 1,
-    }, {
+    },{
         uqid: `90b02eb2-1903-11ed-861d-0242ac120002`,
         question: `Un recipiente cerrado contiene 5,0 litros de oxígeno gaseoso a la presión de 2,0 atmósferas. ¿Qué volumen ocupará si se le aumenta la presión de 5,0 atmósferas cuando se mantiene constante la temperatura?`,
         keys: [`$2,0 L$`, `$1,0 L$`, `$3,0 L$`, `$4,0 L$`, `$5,0 L$`],
         UrlOfImage: null,
-        university: `unsch`,
+        university: `unsch`,    
         course: `chemistry`,
         level: 1,
-    }, {
+    },{
         uqid: `cabf0c5e-1903-11ed-861d-0242ac120002`,
         question: `Señale las consecuencias del cambio climático.`,
         keys: [`disminución de la superficie cubierta de nieve`, `disminución del nivel de mar`, `disminución de la frecuencia de huracanes`, `aumento del volumen de hielo en el Ártico `, `conservación de la biodiversidad en la biosfera`],
@@ -353,7 +353,7 @@ export const questions = [
         university: `unsch`,
         course: `chemistry`,
         level: 1,
-    }, {
+    },{
         uqid: `0e93232a-1904-11ed-861d-0242ac120002`,
         question: `Señale el proceso electroquímico que ocurre en la celda galvánica de Daniel (Zn - Cu).`,
         keys: [`En el ánodo, pobre el proceso de oxidación.`, `En el cátodo, se produce el fenómeno de oxidación.`, `En el ánodo, ocurre el proceso de reducción.`, `El flujo de electrones se realiza del cátodo hacia el ánodo.`, `El flujo de iones positivos se produce del ánodo hacia el cátodo.`],
@@ -372,7 +372,7 @@ export const questions = [
         university: `unsch`,
         course: `literature`,
         level: 200000,
-    }, {
+    },{
         uqid: `7f53be98-18ce-11ed-861d-0242ac120002`,
         question: `¿Quién escribió ”Rimas”, obra de la literatura española?`,
         keys: [`Gustavo Adolfo Bécquer`, `Mariano Melgar`, `Lord Byron`, `Walt Whitman`, `Wolfgang von Goethe`],
@@ -380,7 +380,7 @@ export const questions = [
         university: `unsch`,
         course: `literature`,
         level: 1,
-    }, {
+    },{
         uqid: `d097e1f8-18ce-11ed-861d-0242ac120002`,
         question: `Señale la alternativa que establece correspondencia entre escritor y obra.`,
         keys: [`Jorge Isaacs : María `, `Rómulo Gallegos : Los ríos profundos`, `José Saramago : El tambor de hojalata`, `Jorge Icaza : Todas las sangres`, `Gabriel García Márquez : La colmena`],
@@ -388,7 +388,7 @@ export const questions = [
         university: `unsch`,
         course: `literature`,
         level: 300000,
-    }, {
+    },{
         uqid: `ff8d61ea-18ce-11ed-861d-0242ac120002`,
         question: `¿Cuál es el escenario principal de la novela ”Cien años de soledad”, del colombiano Gabriel García?`,
         keys: [`Macondo`, `Comala`, `Calemar`, `Magdalena`, `Rumi`],
@@ -396,7 +396,7 @@ export const questions = [
         university: `unsch`,
         course: `literature`,
         level: 1,
-    }, {
+    },{
         uqid: `1fb8eb00-18d0-11ed-861d-0242ac120002`,
         question: `Conjunto de narraciones escritas por Ricardo Palma que dan cuenta de episodios ocurridos en Perú y anécdotas de personajes peculiares.`,
         keys: [`Tradiciones peruanas`, `Tradiciones cusqueñas`, `Tradiciones de Huamanga`, `Tradiciones andahuaylinas`, `Tradiciones limeñas`],
@@ -404,7 +404,7 @@ export const questions = [
         university: `unsch`,
         course: `literature`,
         level: 100000,
-    }, {
+    },{
         uqid: `253f302e-18d1-11ed-861d-0242ac120002`,
         question: `Killac es el escenario principal de _______ escrita por _______`,
         keys: [`Aves sin nido - Clorinda Matto de Turner`, `Warma kuyay - José Maria Arguedas`, `Redoble por Rancas - Manuel Scorza`, `Cuentos andinos - Enrique Lopéz Albújar`, `Los perros hambrientos -  Ciro Alegría`],
@@ -412,7 +412,7 @@ export const questions = [
         university: `unsch`,
         course: `literature`,
         level: 200000,
-    }, {
+    },{
         uqid: `2da92ada-18d1-11ed-861d-0242ac120002`,
         question: ` ¿Quién es el autor de las novelas ”En octubre no hay milagros” y ”Los inocentes”?`,
         keys: [`Oswaldo Reynoso`, `Julio Ramón Ribeyro`, `Mario Vargas Llosa`, `Alfredo Bryce Echenique`, `Miguel Gutierrez`],
@@ -431,7 +431,7 @@ export const questions = [
         university: `unsch`,
         course: `language`,
         level: 200000,
-    }, {
+    },{
         uqid: `02b40d54-18cc-11ed-861d-0242ac120002`,
         question: `En la actualidad, ¿cuál es el elemento de la comunicación que se desarrolla significativamente?`,
         keys: [`canal`, `receptor`, `ruido`, `código`, `emisor`],
@@ -439,7 +439,7 @@ export const questions = [
         university: `unsch`,
         course: `language`,
         level: 100000,
-    }, {
+    },{
         uqid: `4b622aa4-18cc-11ed-861d-0242ac120002`,
         question: `Marque el par de sustantivos derivados.`,
         keys: [`jardinero, clavelito`, `cajas, panes`, `libros, caballo`, `flores, locura`, `venganza, árboles`],
@@ -447,7 +447,7 @@ export const questions = [
         university: `unsch`,
         course: `language`,
         level: 100000,
-    }, {
+    },{
         uqid: `efd469c6-18cc-11ed-861d-0242ac120002`,
         question: `Marque la alternativa con pronombres personales.`,
         keys: [`tú, la, lo`, `ti, sí, di`, `la, ese, sí`, `nos, ella, sé`, `mi, té, me`],
@@ -455,7 +455,7 @@ export const questions = [
         university: `unsch`,
         course: `language`,
         level: 200000,
-    }, {
+    },{
         uqid: `1979413e-18cd-11ed-861d-0242ac120002`,
         question: `¿Cuál es la expresión con un verbo conjugado?`,
         keys: [`Indudablemente, no es para tanto.`, `Poder escucharte, ni ilusión.`, `No hablar en este sitio sagrado.`, `Para terminar, mejor trabajar temprano.`, `Perder el tiempo disponible.`],
@@ -463,7 +463,7 @@ export const questions = [
         university: `unsch`,
         course: `language`,
         level: 200000,
-    }, {
+    },{
         uqid: `c1c6ee7c-18cd-11ed-861d-0242ac120002`,
         question: ` ¿En cuál de las alternativas se emplea indebidamente el gerundio?`,
         keys: [`Keidy no está preveyendo la desgracia.`, `estoy leyendo el preriódico.`, `Él está creyendo el cuento.`, `Estamos proveyendo los insumos.`, `Están viendo los resultados.`],
@@ -471,7 +471,7 @@ export const questions = [
         university: `unsch`,
         course: `language`,
         level: 100000,
-    }, {
+    },{
         uqid: `fc518976-18cd-11ed-861d-0242ac120002`,
         question: `Marque la alternativa en la que se emplea la conjunción ”y” de manera correcta.`,
         keys: [`Aquí viven leones y hienas`, `Luis y Ismael son profesores.`, `Él enseña Geografía y Historia.`, `Llegaron padre y hijo.`, `En mi huerto, producen naranjas y higos.`],
@@ -490,7 +490,7 @@ export const questions = [
         university: `unsch`,
         course: `civic`,
         level: 1,
-    }, {
+    },{
         uqid: `5ab67120-19c8-11ed-861d-0242ac120002`,
         question: `Son libertadores políticos consagrados en la Constitución Política del Estado Peruano, de 1993.`,
         keys: [`elegir y ser elegido`, `opinión, interpelación y trabajo`, `iniciativa empresarial,laboral e intelectual`, `asociación, opinion e informacion`, `reunión e información`],
@@ -498,7 +498,7 @@ export const questions = [
         university: `unsch`,
         course: `civic`,
         level: 1,
-    }, {
+    },{
         uqid: `5ec4d518-19c8-11ed-861d-0242ac120002`,
         question: `Indique una función del Poder Judicial`,
         keys: [`Administrar justicia en todo el país.`, `Procesar y sentenciar a las personas que cometieron un delito..`, `Emitir normas para controlar la inseguridad ciudadana.`, `Dictar normas de prevención para evitar la delincuencia.`, `Interpelar a los ministros.`],
@@ -507,17 +507,17 @@ export const questions = [
         course: `civic`,
         level: 1,
     },
-
+    
     // universalHistory 5
     {
-        uqid: `23fbac8e-1911-11ed-861d-0242ac120002`,
+        uqid: `23fbac8e-1911-11ed-861d-0242ac1200174`,
         question: `¿Cuál es la ciencia que estudia e interpreta las inscripciones?`,
         keys: [`epigrafía`, `paleografía`, `historia `, `numismática`, `paleontología`],
         UrlOfImage: null,
         university: `unsch`,
         course: `universalHistory`,
         level: 1,
-    }, {
+    },{
         uqid: `541ab162-1911-11ed-861d-0242ac120002`,
         question: `¿Qué institución política romana tenía por funciones la elección del rey, redactar leyes, controlar la función de magistrados?`,
         keys: [`Senado`, `Magistrados`, `Asambleas`, `Patricidio`, `Cornicio`],
@@ -527,14 +527,14 @@ export const questions = [
         level: 1,
     },
     {
-        uqid: `8f853a9c-1911-11ed-861d-0242ac120002`,
+        uqid: `23fbac8e-1911-11ed-861d-0242ac120002`,
         question: `¿Qué función tenía el tribunal de la Santa Inquisición?`,
         keys: [`Procesar y sentenciar los delitos contra la fe católica`, `Organizar las cruzadas para recuperar la Tierra Santa.`, `Reconocer la condición de santo a los religiosos.`, `Propiciar la expansión del catolicismo.`, `Eliminar el islamismo.`],
         UrlOfImage: null,
         university: `unsch`,
         course: `universalHistory`,
         level: 1,
-    }, {
+    },{
         uqid: `b388f938-1911-11ed-861d-0242ac120002`,
         question: `Orden religiosa que apoyó a la Iglesia Católica en extender la doctrina d ela contrarreforma.`,
         keys: [`Compañia de Jesus`, `Dominico`, `Agustino`, `Fransciscano`, `Mercedario`],
@@ -542,7 +542,7 @@ export const questions = [
         university: `unsch`,
         course: `universalHistory`,
         level: 1,
-    }, {
+    },{
         uqid: `e10c6e76-1911-11ed-861d-0242ac120002`,
         question: `¿De qué imperio colonial se han independizado las 13 colonias?`,
         keys: [`inglés`, `francés`, `holandes`, `español`, `ruso`],
@@ -560,7 +560,7 @@ export const questions = [
         university: `unsch`,
         course: `historyOfPeru`,
         level: 1,
-    }, {
+    },{
         uqid: `52f048aa-1912-11ed-861d-0242ac120002`,
         question: ` La cultura sufrió los efectos del fenómeno de El Niño.`,
         keys: [`Moche`, `Huarpa`, `Chavin`, `Recuay`, `Wari`],
@@ -568,7 +568,7 @@ export const questions = [
         university: `unsch`,
         course: `historyOfPeru`,
         level: 1,
-    }, {
+    },{
         uqid: `7af5d82e-1912-11ed-861d-0242ac120002`,
         question: ` Grupo social que asimilo con mayor facilidad a la cultura hispana.`,
         keys: [`mestizos`, `negros`, `esclavos`, `indígenas`, `yanaconas`],
@@ -576,7 +576,7 @@ export const questions = [
         university: `unsch`,
         course: `historyOfPeru`,
         level: 1,
-    }, {
+    },{
         uqid: `9fd13d1e-1912-11ed-861d-0242ac120002`,
         question: ` Reorganizó el ejército y estableció su cuartel general en Pativilca, como parte de la corriente libertadora.`,
         keys: [`Bolívar`, `San Martín`, `Santa Cruz`, `Sucre`, `Gamarra`],
@@ -584,7 +584,7 @@ export const questions = [
         university: `unsch`,
         course: `historyOfPeru`,
         level: 1,
-    }, {
+    },{
         uqid: `e4f23376-1912-11ed-861d-0242ac120002`,
         question: `Batalla que puso fin a la Confederación Peruana- Bolivariana.`,
         keys: [`Yungay`, `Alto Perú`, `Maynas`, `Paucartambo`, `Chupas`],
@@ -592,7 +592,7 @@ export const questions = [
         university: `unsch`,
         course: `historyOfPeru`,
         level: 1,
-    }, {
+    },{
         uqid: `01ca46a0-1913-11ed-861d-0242ac120002`,
         question: `Tuvo como objetivo formar un gobierno autónomo y nacionalista.`,
         keys: [`Velasco`, `Ollanta`, `Toledo`, `García`, `Bermudez`],
@@ -600,7 +600,7 @@ export const questions = [
         university: `unsch`,
         course: `historyOfPeru`,
         level: 1,
-    }, {
+    },{
         uqid: `15f6aa56-1913-11ed-861d-0242ac120002`,
         question: `Década de mayor violencia en la historia nacional.`,
         keys: [`$1980 - 1990$`, `$1930 - 1940$`, `$1960 - 1970$`, `$1990 - 2000$`, `$1970 - 1980$`],
@@ -619,7 +619,7 @@ export const questions = [
         university: `unsch`,
         course: `biology`,
         level: 1,
-    }, {
+    },{
         uqid: `ad27dc56-1904-11ed-861d-0242ac120002`,
         question: `Las proteínas, compuestos fundamentales de todos los seres vivos, son macromoléculas complejas formadas por la unión de moléculas sencillas,¿Cómo se denominan?`,
         keys: [`aminoácidos`, `nucleótidos`, `monosacáridos `, `ácidos grasos `, `glicerol`],
@@ -627,7 +627,7 @@ export const questions = [
         university: `unsch`,
         course: `biology`,
         level: 1,
-    }, {
+    },{
         uqid: `ca455188-1904-11ed-861d-0242ac120002`,
         question: `¿Cómo se designa al organelo conocido como \”central de energía\”, porque transforma la energía de las moléculas nutritivas (glucosa,lípidos y proteínas en energía útil para el crecimiento, reparación y desarrollo celular)?`,
         keys: [`mitocondria`, `aparato de Golgi`, `reticulo endoplasmatico`, `lisosoma`, `peroxisoma`],
@@ -635,7 +635,7 @@ export const questions = [
         university: `unsch`,
         course: `biology`,
         level: 1,
-    }, {
+    },{
         uqid: `94c2bb44-1905-11ed-861d-0242ac120002`,
         question: `. En la respiración celular aeróbica, las reacciones del ciclo de krebs solo se produce a través de las mitocondrias y no en el citoplasma. ¿Cuál es el factor determinante?`,
         keys: [`$presencia de O_2$`, `$presencia de CO_2$`, `$ausencia de CO_2$`, `$ausencia de O_2$`, `$presencia de agua$`],
@@ -643,7 +643,7 @@ export const questions = [
         university: `unsch`,
         course: `biology`,
         level: 1,
-    }, {
+    },{
         uqid: `ea4dacf0-1904-11ed-861d-0242ac120002`,
         question: `Un perro, una trucha o una paloma poseen un eje interno que de dan soporte al cuerpo y a los órganos internos, permitiendo que estos organismos tengan mayor movilidad. ¿Por qué tejido está conformado este eje?`,
         keys: [`óseo`, `muscular`, `adiposo`, `nervioso`, `epitelial`],
@@ -651,7 +651,7 @@ export const questions = [
         university: `unsch`,
         course: `biology`,
         level: 1,
-    }, {
+    },{
         uqid: `b9717eee-1905-11ed-861d-0242ac120002`,
         question: `¿Cuál es la fase que corresponde cuando cada cromátida se dirige a su respectivo polo de la célula durante la mitosis?`,
         keys: [`anafase`, `metafase`, `telofase`, `profase`, `interfase`],
@@ -659,7 +659,7 @@ export const questions = [
         university: `unsch`,
         course: `biology`,
         level: 1,
-    }, {
+    },{
         uqid: `161efce8-1906-11ed-861d-0242ac120002`,
         question: `¿Cuál es la vía de transmisión de la tuberculosis pulmonar?`,
         keys: [`inspiración de aire contaminado`, `transfusión de sangre infectada`, `ingestión de alimentos contaminados`, `ingestión de agua contaminada`, `relaciones sexuales con personas infectadas`],
@@ -667,7 +667,7 @@ export const questions = [
         university: `unsch`,
         course: `biology`,
         level: 1,
-    }, {
+    },{
         uqid: `08217ca6-1906-11ed-861d-0242ac120002`,
         question: `¿Cómo se nombra a las sustancias específicas que producen los glóbulos blancos (linfocitos B), cómo mecanismo de defensa ante la presencia de sustancias genéticamente extrañas al organismo?`,
         keys: [`anticuerpo`, `mucus`, `lágrima`, `saliva`, `antígeno`],
@@ -685,7 +685,7 @@ export const questions = [
         university: `unsch`,
         course: `humanAnatomy`,
         level: 1,
-    }, {
+    },{
         uqid: `6cdb9e60-1910-11ed-861d-0242ac120002`,
         question: `¿Qué enfermedad del sistema cardiovascular se define como correcta?`,
         keys: [`Arteriosclerosis, cuando las paredes arteriales sufren taponamiento de grasa e impiden la circulación normal de la sangre.`, `Várices, cuando las venas superficiales se contraen.`, `Varices, cuando las venas superficiales no se dilatan.`, `Infarto cardíaco, cuando hay flujo sanguíneo hacia los ventrículos.`, `Infarto cardíaco, cuando el flujo sanguíneo no llega a las aurículas.`],
@@ -693,7 +693,7 @@ export const questions = [
         university: `unsch`,
         course: `humanAnatomy`,
         level: 1,
-    }, {
+    },{
         uqid: `988cd40c-1910-11ed-861d-0242ac120002`,
         question: `Estructura específica renal donde se forma la orina.`,
         keys: [`nefrón`, `médula`, `corteza`, `pelvis`, `envoltura`],
@@ -701,7 +701,7 @@ export const questions = [
         university: `unsch`,
         course: `humanAnatomy`,
         level: 1,
-    }, {
+    },{
         uqid: `b68e9f58-1910-11ed-861d-0242ac120002`,
         question: `¿Cuál es la diferencia entre el acto reflejo y el acto voluntario?`,
         keys: [`El reflejo tiene respuestas rápidas y el voluntario, lentas.`, `El voluntario tiene respuestas rápidas y el reflejo, lentas.`, `El voluntario tiene respuestas diversas y el reflejo , lentas`, `El reflejo se realiza en la protuberancia y el voluntario, en el cerebro`, `El voluntario se produce en el cerebelo y el reflejo, en la médula espinal.`],
@@ -709,7 +709,7 @@ export const questions = [
         university: `unsch`,
         course: `humanAnatomy`,
         level: 1,
-    }, {
+    },{
         uqid: `e047083a-1910-11ed-861d-0242ac120002`,
         question: `Enfermedad del sistema endocrino donde, por ausencia o malformación de la glándula tiroidea, se generan graves retardos físicos y mentales en las personas.`,
         keys: [`cretinismo`, `gigantismo y enanismo`, `hipotiroidismo`, `hipertiroidismo`, `diabetes mellitus`],
@@ -728,7 +728,7 @@ export const questions = [
         university: `unsch`,
         course: `geography`,
         level: 1,
-    }, {
+    },{
         uqid: `a8e2cb60-19c7-11ed-861d-0242ac120002`,
         question: `¿En qué cuenca hidrográfica se localiza la actual ciudad de Huamanga?`,
         keys: [`Huarpa `, `Pampas`, `Torobamba`, `Qaracha`, `Chichas y Soras`],
@@ -736,7 +736,7 @@ export const questions = [
         university: `unsch`,
         course: `geography`,
         level: 1,
-    }, {
+    },{
         uqid: `c5d743ae-19c7-11ed-861d-0242ac120002`,
         question: `Qué logró expandir el Perú durante el gobierno del Dr. Jose Luis Bustamante y Rivero.`,
         keys: [`las 200 millas del mar peruano`, `La Antártida`, `la selva amazónica`, `el lago Titicaca`, `las fronteras hacia Bolivia`],
@@ -744,7 +744,7 @@ export const questions = [
         university: `unsch`,
         course: `geography`,
         level: 1,
-    }, {
+    },{
         uqid: `e70e5094-19c7-11ed-861d-0242ac120002`,
         question: `Cuál es el hábitat del paiche`,
         keys: [`ríos amazónicos`, `lagunas alto-andinas`, `ríos interandinos`, `mar peruano`, `rios de la costa`],
@@ -752,7 +752,7 @@ export const questions = [
         university: `unsch`,
         course: `geography`,
         level: 1,
-    }, {
+    },{
         uqid: `eb4867bc-19c7-11ed-861d-0242ac120002`,
         question: `En los últimos años el Perú, en qué región se intensificó la explotación ilegal del oro aluvial.`,
         keys: [`Madre de Dios`, `Lima`, `Piura`, `Ayacucho`, `Cajamarca`],
@@ -770,7 +770,7 @@ export const questions = [
         university: `unsch`,
         course: `economy`,
         level: 1,
-    }, {
+    },{
         uqid: `80820e74-1913-11ed-861d-0242ac120002`,
         question: `Cual de las siguientes afirmaciones no es atribución del Banco Central de Reserva(BCR)`,
         keys: [`Otorgar créditos a las empresas.`, `Regular la cantidad de dinero de la economía.`, `Administrar las reservas internacionales del país.`, `Emitir billetes y monedas.`, `Informar a la ciudadanía sobre las finanzas nacionales.`],
@@ -787,7 +787,7 @@ export const questions = [
         university: `unsch`,
         course: `economy`,
         level: 1,
-    }, {
+    },{
         uqid: `c5037de4-1913-11ed-861d-0242ac120002`,
         question: `Quién es el responsable de las labores destinadas a recaudar los tributos y hacer cumplir las normas de carácter tributario.`,
         keys: [`Superintendencia Nacional de Administración tributaria`, `Ministerio de Economía y Finanzas`, `Banco Central de Reserva del Perú`, `Instituto Nacional de Administración Tributaria.`, `Banco de Crédito del Perú`],
@@ -805,7 +805,7 @@ export const questions = [
         university: `unsch`,
         course: `topicality`,
         level: 1,
-    }, {
+    },{
         uqid: `f1260d46-19c8-11ed-861d-0242ac120002`,
         question: `El llamado \”Río Hablador\” a qué carretera viene afectando e interrumpiendo en estas últimas semanas.`,
         keys: [`Central`, `Panamericana Norte`, `Panamericana Sur`, `Transoceanica`, `Marginal`],
@@ -813,7 +813,7 @@ export const questions = [
         university: `unsch`,
         course: `topicality`,
         level: 1,
-    }, {
+    },{
         uqid: `f4f99c12-19c8-11ed-861d-0242ac120002`,
         question: `Cuál es la institución encargada de aprobar el Presupuesto General de la República.`,
         keys: [`Congreso de la República`, `Ministerio de Economía y Finanzas`, `Contraloría General de la República`, `Direccion General de Presupuesto Público`, `Poder Ejecutivo`],
@@ -821,7 +821,7 @@ export const questions = [
         university: `unsch`,
         course: `topicality`,
         level: 1,
-    }, {
+    },{
         uqid: `f9578c9c-19c8-11ed-861d-0242ac120002`,
         question: `A Quien se considera como el creador de Facebook`,
         keys: [`Mark Zuckerberg`, `Louis Braile`, `Henry Cole`, `Edward Jenner`, `Isaac Newton`],
@@ -829,23 +829,23 @@ export const questions = [
         university: `unsch`,
         course: `topicality`,
         level: 1,
-    }, {
-        uqid: `fcda4b16-19c8-11ed-861d-0242ac120002`,
+    },{
+        uqid: `00e8b954-19c9-11ed-861d-0242ac121111`,
         question: `Organismo recientemente creado por el gobierno para hacer frente a los desastres naturales en todo el país `,
         keys: [`COEN`, `SEDAPAL`, `OSIPTEL`, `SENAMHI`, `SEDA`],
         UrlOfImage: null,
         university: `unsch`,
         course: `topicality`,
         level: 1,
-    }, {
-        uqid: `00e8b954-19c9-11ed-861d-0242ac120002`,
+    },{
+        uqid: `f9578c9c-19c8-11ed-861d-0242ac120002`,
         question: `Triple campeón mundial del boxeo de los pesos pesados fallecido el año 2016.`,
         keys: [`Mohamed Ali`, `George Foreman`, `Oscar \”Ringo\” Bonavena`, `Kent Norton`, `Mauro Mina`],
         UrlOfImage: null,
         university: `unsch`,
         course: `topicality`,
         level: 1,
-    }, {
+    },{
         uqid: `0478c500-19c9-11ed-861d-0242ac120002`,
         question: `Es autor de la obra literaria \”La interpretación de los sueños\”.`,
         keys: [`Sigmund Freud`, `Toni Morrison`, `Nathanael West`, `Ralph Ellison`, `Alice Walter`],

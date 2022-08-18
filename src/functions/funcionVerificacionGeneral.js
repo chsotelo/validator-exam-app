@@ -10,7 +10,8 @@ export const funcionVerificacionGeneral = () => {
         [contenido]: obj[contenido] ? obj[contenido] + 1 : 1
     }), {});
     const repetidos = Object.keys(rta).filter((e) => rta[e] > 1);
-    if (repetidos !== []) {
+    console.log(repetidos);
+    if (repetidos.length !== 0) {
         document.getElementById('uquid-repetidas').innerHTML = "UQUID que se repiten son: \n  " + repetidos.toString();
     }
 
@@ -27,7 +28,6 @@ export const funcionVerificacionGeneral = () => {
                 } if (resultado === 1) {
                     preguntasRepetidas.push(preguntas[index].uqid);
                 } else {
-
                 }
             }
         }
@@ -48,10 +48,10 @@ export const funcionVerificacionGeneral = () => {
         [contenido]: obj[contenido] ? obj[contenido] + 1 : 1
     }), {});
     const repetidos3 = Object.keys(rta3).filter((e) => rta3[e] > 1);
-    if (repetidos !== []) {
+    console.log(repetidos3);
+    if (repetidos3.length !== 0) {
         document.getElementById("keys-repetidas").innerHTML = "KEYS que se repiten son: \n " + repetidos3.toString();
     }
-
 
     //verificando si no hay URLs repetidas
     const url = preguntas.map((e) => { return e.UrlOfImage });

@@ -1,4 +1,4 @@
-import { questions as preguntas } from '../exams/questions.js';
+// import { questions as preguntas } from '../exams/questions.js';
 
 export const replaceSpace = (preguntas) => {
     let preguntasModificadasSpace = [];
@@ -133,7 +133,7 @@ export const eliminarEspaciosIniciales = (preguntas) => {
 };
 
 
-export const generarJSON = () => {
+export const generarJSON = (preguntas) => {
     let preguntasSinEspaciosIniciales = eliminarEspaciosIniciales(preguntas);
     let preguntasModificadasSpace = replaceSpace(preguntasSinEspaciosIniciales);
     let preguntasModificadasNewLine = replaceNewLine(preguntasModificadasSpace);
@@ -141,12 +141,13 @@ export const generarJSON = () => {
     let preguntasModificadasDolar = remplazarSimboloDolar(preguntasModificadasGuion);
     let preguntasModificadasFracciones = replaceFracciones(preguntasModificadasDolar);
     let preguntasModificadas = preguntasModificadasFracciones;
-    console.log(preguntasModificadas);
-    let preguntasJSON = JSON.stringify(preguntasModificadas);
-    let blob = new Blob([preguntasJSON], { type: "application/json" });
-    let url = URL.createObjectURL(blob);
-    let a = document.createElement("a");
-    a.download = "preguntas.json";
-    a.href = url;
-    a.click();
+//     console.log(preguntasModificadas);
+//     let preguntasJSON = JSON.stringify(preguntasModificadas);
+//     let blob = new Blob([preguntasJSON], { type: "application/json" });
+//     let url = URL.createObjectURL(blob);
+//     let a = document.createElement("a");
+//     a.download = "preguntas.json";
+//     a.href = url;
+//     a.click();
+return preguntasModificadas;
 };

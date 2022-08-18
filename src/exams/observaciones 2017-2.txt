@@ -1,0 +1,17 @@
+Todas las preguntas:
+    - Poner el \n en guia con lo establecido en el libro 
+    - Al poner \n no darle enter (La pregunta hacerlo en la misma linea)
+    - Al usar "{" ó "}" ponerlo con una funcion latex (alternativas o preguntas)
+
+Pregunta 19: Algebra
+- corregir la ] de la funcion
+
+Pregunta 23: trigonometria
+- Usar \pi en vez de \pirad
+
+Pregunta 75: biologia 
+- No poner punto en el inicio
+
+
+
+
